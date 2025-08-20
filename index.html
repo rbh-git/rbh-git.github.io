@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript">
             window.onload = function() {
-                var isAOS = /android/i.test(navigator.userAgent);
-                var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                const userAgent = navigator.userAgent;
+                var isAOS = userAgent.includes("Android");
+                var isiOS = userAgent.includes("iPhone") || userAgent.includes("iPad") || userAgent.includes("iPod");
 
                 if (isAOS) {
                     location.href = "market://details?id=com.rbh.ilovesalon.customer";
