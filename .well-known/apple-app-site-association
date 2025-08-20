@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "3NFMX76AAS.com.rbh.ilovesalon.customer",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
