@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.rbh.ilovesalon.customer",
+    "sha256_cert_fingerprints":
+    ["12:04:61:9B:50:06:7F:33:07:B2:27:3F:87:78:CC:1E:76:09:D3:6B:C4:BD:97:8D:E5:E4:F9:42:B4:87:E1:F1"]
+  }
+}]
