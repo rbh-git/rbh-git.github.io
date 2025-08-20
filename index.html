@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ILoveSalon-알싸</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript">
+            window.onload = function() {
+                var isAOS = /android/i.test(navigator.userAgent);
+                var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+                if (isAOS) {
+                    location.href = "https://play.google.com/store/apps/details?id=com.rbh.ilovesalon.customer";
+                } else if (isiOS) {
+                    location.href = "https://apps.apple.com/app/1601777636";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>알싸 설치 링크</h1>
+    </body>
+</html>
