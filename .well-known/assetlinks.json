@@ -1,11 +1,24 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.rbh.ilovesalon.customer",
-    "sha256_cert_fingerprints": [
-      "3B:3B:B2:37:F1:E0:A1:CB:E4:93:C7:A1:1E:C2:E8:BD:85:D7:29:97:D5:20:27:52:9E:B4:F7:1E:26:AB:EE:91",
-      "62:FF:E8:F3:E8:89:7A:54:70:63:E2:6A:A9:07:85:BB:1F:DA:42:7A:84:6D:E0:47:3D:49:69:40:D5:2A:27:BE"
-    ]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.rbh.ilovesalon",
+      "sha256_cert_fingerprints": [
+        "3B:3B:B2:37:F1:E0:A1:CB:E4:93:C7:A1:1E:C2:E8:BD:85:D7:29:97:D5:20:27:52:9E:B4:F7:1E:26:AB:EE:91",
+        "4E:EE:6C:D1:69:07:E1:23:1C:63:54:82:62:01:0F:85:AB:65:39:64:40:57:86:C5:9B:D6:BF:D3:77:94:98:1D"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.rbh.ilovesalon.customer",
+      "sha256_cert_fingerprints": [
+        "3B:3B:B2:37:F1:E0:A1:CB:E4:93:C7:A1:1E:C2:E8:BD:85:D7:29:97:D5:20:27:52:9E:B4:F7:1E:26:AB:EE:91",
+        "62:FF:E8:F3:E8:89:7A:54:70:63:E2:6A:A9:07:85:BB:1F:DA:42:7A:84:6D:E0:47:3D:49:69:40:D5:2A:27:BE"
+      ]
+    }
   }
-}]
+]
